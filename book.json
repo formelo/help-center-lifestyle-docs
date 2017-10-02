@@ -1,0 +1,12 @@
+{
+    "title": "Formelo for Lifestyle Help Center",
+    "variables" : {
+        "publisher_name": "Formelo Inc.",
+        "publisher_url": "https://formelo.com",
+        "cc_license_type": "by-nc-sa"
+    },
+    "styles": {
+        "website": "styles/website.css"
+     },
+     "plugins": [ "theme-faq"]
+}

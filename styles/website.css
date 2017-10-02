@@ -1,0 +1,58 @@
+body {
+    font-family: "Open Sans",Whitney SSm A,Whitney SSm B,Helvetica,Arial,sans-serif;
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://cdn.formelo.com/assets/admin/pages/css/../fonts/DXI1ORHCpsQm3Vp6mXoaTfk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+}
+.faq-navbar {
+    background: transparent;
+    border-radius: 0px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #ddd;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+}
+.faq-header {
+    background-color: #313840;
+    color: #fff;
+    margin-top: -50px;
+    padding-top: 100px;
+    background: linear-gradient(to right bottom,rgba(41,8,48,.97),rgba(82,65,143,.97) 50%,rgba(114,183,227,.97));
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+.faq-header .description {
+    color: #ddd;
+}
+.faq-page-footer {
+    font-size: x-small;
+}
+.list-group-item {
+    border: 1px solid #e6ebf1
+}
+.list-group a:hover, .breadcrumb {
+    background-color: #f6f9fc;
+}
+.panel-default {
+    border: 0px;
+}
+.panel-body, .list-group {
+    box-shadow: 0 7px 14px 0 rgba(50,50,93,.1), 0 3px 6px 0 rgba(0,0,0,.07);
+}
+.panel .panel-heading {
+    color: #6f6f6f;
+    border-radius: 0px;
+    background-color: #f5f5f5;
+}
+.panel .panel-title {
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: none;
+}
+.panel .panel-title .title-secondary {
+    text-transform: none;
+}

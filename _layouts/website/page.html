@@ -1,0 +1,26 @@
+{% extends template.self %}
+
+{% block faq_header_brand %}
+<img src="https://cdn.formelo.com/20170927/17/1506534929360-logo-398x100-darkbg-2x.png?width=150"/>
+{% endblock %}
+{% extends template.self %}
+
+{% block faq_menu %}
+<ul class="nav navbar-nav navbar-right">
+    <li><a href="https://help.formelo.com/business">Business</a></li>
+    <li><a href="https://developer.formelo.com">Developers</a></li>
+    <li><a href="https://formelo.com/lifestyle">Back to Formelo.com</a></li>
+</ul>
+{% endblock %}
+
+{% block faq_footer %}
+<div class="faq-page-footer">    
+    {% if book.publisher_url and book.publisher_url.length > 0 %}
+    <a href="{{ book.publisher_url }}" target="_blank">{{ book.publisher_name|d(book.publisher_url|t, true) }}</a> ·
+    {% endif %}
+    <span>Last edited on {{ file.mtime|date('MMMM Do YYYY') }}</span>
+    {% if book.cc_license_type %}
+    <a href="http://creativecommons.org/licenses/{{ book.cc_license_type }}/4.0/"><img src="https://licensebuttons.net/l/{{ book.cc_license_type }}/4.0/80x15.png"/></a>
+    {% endif %}
+</div>
+{% endblock %}
